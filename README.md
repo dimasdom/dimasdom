@@ -23,7 +23,7 @@ All five repos below are the ArbiScanner platform — a solo end-to-end project 
 - **ArbiSpreadScanner.WebApp** — ASP.NET Core 10 Web API + React SPA: JWT auth, SignalR real-time push, RabbitMQ consumer, MongoDB + PostgreSQL + Redis, Clean Architecture
 - **ArbiSpreadScanner.AdminPannel** — ASP.NET Core 10 admin API + React SPA: user and subscription management, OxaPay crypto payments, two isolated PostgreSQL databases, role-based access
 - **ArbiSpreadScanner.TelegramNotifierApp** — .NET 10 worker: Telegram bot (account linking, notification opt-in/out) + RabbitMQ consumer that forwards spread alerts to subscribed users
-- **ArbitrageSpreadScanner** — .NET 9 worker: the core scanning engine — 12+ exchanges via ccxt, parallel symbol processing, three strategies (futures, funding rate, spot-futures), proxy rotation, protobuf publishing to RabbitMQ, MongoDB persistence
+- **ArbitrageSpreadScanner** — .NET 10 worker: the core scanning engine — 12+ exchanges via ccxt, parallel symbol processing, three strategies (futures, funding rate, spot-futures), proxy rotation, protobuf publishing to RabbitMQ, MongoDB persistence
 
 #### Connect
 
